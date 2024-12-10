@@ -1,3 +1,8 @@
 # 'https://github.com/repourl/': The requested URL returned error: 403
 means authentication not happened use this url to setup
 steps-1 https://www.geeksforgeeks.org/how-to-fix-git-error-failed-to-push-some-refs-to-remote/
+
+
+
+# issue 2- [remote rejected] Main -> Main (push declined due to repository rule violations)
+means you're pushing sensitive data like pat or github url so this will not able to push
