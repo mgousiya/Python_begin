@@ -1,6 +1,14 @@
-# 'https://github.com/repourl/': The requested URL returned error: 403
-means authentication not happened use this url to setup
-steps-1 https://www.geeksforgeeks.org/how-to-fix-git-error-failed-to-push-some-refs-to-remote/
+Issue - 1
+ The requested URL returned error: 403
+this usually happens when you configured new github account in local while exisitng one
+as you have already exisintg one it takes always old PAT token even though you set new repository url
+to avoid old PAT taking you need to setup new hTTPS authentication with new github account for that create NEW PAT token
+of type classic give all access with No expiration
+
+then follow with step-1
+
+steps-1 https://www.geeksforgeeks.org/how-to-fix-git-remote-repository-not-found-error/
+git remote set-url origin https://<your-token>@github.com/username/repository.git
 
 
 
