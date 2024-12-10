@@ -14,3 +14,5 @@ git remote set-url origin https://<your-token>@github.com/username/repository.gi
 
 # issue 2- [remote rejected] Main -> Main (push declined due to repository rule violations)
 means you're pushing sensitive data like pat or github url so this will not able to push
+
+To avoid getting this error never use your github repository url or PAT token in code
