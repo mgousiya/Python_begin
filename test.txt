@@ -1,1 +1,3 @@
-issues.py
+# 'https://github.com/repourl/': The requested URL returned error: 403
+means authentication not happened use this url to setup
+steps-1 https://www.geeksforgeeks.org/how-to-fix-git-error-failed-to-push-some-refs-to-remote/
